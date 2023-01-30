@@ -1,0 +1,39 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#title{
+    font-size: xx-large;
+    color: #a932d8;
+    
+}
+input[type="text"]{
+    width: 100%;
+    color: black;
+    background-color: azure;
+    border: 2px solid red;
+    height: 26px;
+
+    
+}
+input[type="button"]{
+    width: 150%;
+    height: 200%;
+    background-color:aqua;
+    color: chocolate;
+    border: 2px solid red;
+    
+   /* size: 100px; */
+   height: 30px;
+}
+#main{
+    display: flex;
+    
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 610px;
+    background-color: rgba(94, 238, 114, 0.548);
+}
